@@ -1,3 +1,5 @@
+// esercizio-email-con-prompt
+
 // const email = prompt('inserisci email');
 
 
@@ -8,6 +10,7 @@
     
 //     if( email == listaEmail[i]){
 //         cond = true;
+        // console.log(' sei nella lista');
 //     }
 // }
 // if(cond == true){
@@ -19,7 +22,7 @@
 
 
 
-
+// esercizio-email-con-input
 const container = document.querySelector('.container');
 const input = document.querySelector('input');
 const button = document.querySelector('button');
@@ -31,14 +34,15 @@ button.addEventListener('click', function(){
     
         if(listaEmail[i] == input.value){
             cond = true;
+            console.log(' non sei nella lista');
         }
     }
     if(cond == true){
         container.innerHTML = "sei nella lista";
     }else{
         container.innerHTML = "non sei nella lista";
-        console.log(' non sei nella lista');
-         
+        // console.log(' non sei nella lista');
+
     }
 
 });
